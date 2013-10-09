@@ -60,10 +60,6 @@ class NetVerify {
         return $this->response;
     }
 
-    public function __destruct() {
-
-    }
-
     private function log($msg) {
         if($this->debug == true) error_log($msg);
     }
