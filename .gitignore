@@ -1,0 +1,17 @@
+# Ingore common cruft
+.DS_STORE
+coverage
+.idea
+test.jpg
+test.php
+.idea/*
+Thumbs.db
+
+# Ignore potentially sensitive phpunit file
+phpunit.xml
+
+# Ignore composer generated files
+composer.phar
+composer.lock
+composer-test.lock
+vendor/

@@ -1,0 +1,30 @@
+{
+    "name": "transfergo/netverify",
+    "type": "library",
+    "version": "0.0.1",
+    "description": "Library for working with NetVerify API",
+    "keywords": [ "library", "api", "netverify"],
+    "homepage": "http://netverify.com/",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Giedrius Koksta",
+            "email": "giedrius@transfergo.com",
+            "homepage": "https://transfergo.com/"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "guzzle/guzzle": "3.7.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "NetVerify": "lib/"
+        }
+    }
+}
