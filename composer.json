@@ -18,8 +18,7 @@
     "require": {
         "php": ">=5.3.3",
         "ext-curl": "*",
-        "guzzle/guzzle": "3.7.*",
-        "phpunit/phpunit": "3.7.*"
+        "guzzle/guzzle": "3.7.*"
     },
 
     "autoload": {
